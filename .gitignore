@@ -1,8 +1,8 @@
 # Compiled class file
 *.class
 
+# cache dir
 .idea
-.gradle
 
 # Log file
 *.log
