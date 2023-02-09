@@ -62,6 +62,11 @@ public class JbdExecutor {
     }
 
     public static void printHelp(PrintStream printStream) {
-        printStream.println("Java bytecode degrade tool, powered by Scave, coded by Rosemoe");
+        printStream.println("Java bytecode degrade tool, powered by Scave, origin from Rosemoe");
+        printStream.println("Usage: jbd file [options...]");
+        printStream.println("There are options:");
+        printStream.println("-o: specified the output path");
+        printStream.println("-v: print logs");
+        printStream.println("--help: print this help");
     }
 }
